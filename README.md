@@ -8,9 +8,10 @@ A native music player application built with Expo, React Native, Typescript and 
 yarn install
 ```
 
-## Run IOS
+## Run IOS or ANDROID
 
 ```bash
 npx expo run:ios
+# OR
 npx expo run:android
 ```
