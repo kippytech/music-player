@@ -6,7 +6,7 @@ import { useArtists } from '@/store/library'
 import { defaultStyles, utilsStyles } from '@/styles'
 import { Link } from 'expo-router'
 import { useMemo } from 'react'
-import { FlatList, StyleSheet, Text, TouchableHighlight, View } from 'react-native'
+import { FlatList, Platform, StyleSheet, Text, TouchableHighlight, View } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import { ScrollView } from 'react-native-gesture-handler'
 
@@ -32,7 +32,10 @@ const ArtistsScreen = () => {
 	return (
 		<View style={defaultStyles.container}>
 			<ScrollView
-				style={{ paddingHorizontal: screenPadding.horizontal }}
+				style={[
+					{ paddingHorizontal: screenPadding.horizontal },
+					Platform.OS === 'android' && { paddingVertical: 60 },
+				]}
 				contentInsetAdjustmentBehavior="automatic"
 			>
 				<FlatList
