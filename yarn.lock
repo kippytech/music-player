@@ -4241,6 +4241,11 @@ expo-manifests@~0.13.0:
     "@expo/config" "~8.5.0"
     expo-json-utils "~0.12.0"
 
+expo-media-library@^16.0.4:
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-16.0.4.tgz#d6b264a201861a2eb055b8c181368d2e7f525ca4"
+  integrity sha512-nX9iN8+XAoERDVGPpDdUbhFwvfYdBpkgTAxwDOYL7heASYCOdxfqQtXy/jv1+QZpj0epaR6Owq/LUn1lVP3ykg==
+
 expo-modules-autolinking@1.10.3:
   version "1.10.3"
   resolved "https://registry.yarnpkg.com/expo-modules-autolinking/-/expo-modules-autolinking-1.10.3.tgz#19f349884a90f3f27ec9d64e8f2fa6be609558c5"
@@ -4259,6 +4264,11 @@ expo-modules-core@1.11.12:
   integrity sha512-/e8g4kis0pFLer7C0PLyx98AfmztIM6gU9jLkYnB1pU9JAfQf904XEi3bmszO7uoteBQwSL6FLp1m3TePKhDaA==
   dependencies:
     invariant "^2.2.4"
+
+expo-music-library@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/expo-music-library/-/expo-music-library-0.1.2.tgz#f1a5fa1d914fdf2959b83851d361c1325f110a3b"
+  integrity sha512-3Vi5UY/qvz69bXbRwjmFRsuXqLKegqDCtRtf13Lt6iltxAaujhMk1ga55LhCF+rCIjRG0yzAWEJLBE7K74/WJA==
 
 expo-router@~3.4.8:
   version "3.4.8"
